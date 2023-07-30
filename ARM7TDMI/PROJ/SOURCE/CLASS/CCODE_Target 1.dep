@@ -1,0 +1,4 @@
+Dependencies for Project 'CCODE', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\C\NEW.C)(0x646A2AEC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\new.o --omf_browse .\new.crf --depend .\new.d)
+I (E:\ARM\ARMCC\include\stdio.h)(0x64665C95)

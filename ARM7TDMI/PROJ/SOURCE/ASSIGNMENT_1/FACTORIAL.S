@@ -1,0 +1,12 @@
+  AREA FACT,CODE,READONLY
+	  ENTRY
+	  MOV R0,#5
+	  MOV R5,R0
+	  MOV R1,#4
+LOOP  MOV R0,R5
+      MUL R5,R0,R1
+      SUBS R1,R1,#1
+	  CMP R1,#1
+	  BNE LOOP
+STOP  B STOP
+      END
